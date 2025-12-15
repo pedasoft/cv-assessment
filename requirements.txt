@@ -1,1 +1,6 @@
-pip install streamlit openai imap-tools PyPDF2 python-docx pandas
+streamlit 
+openai 
+imap-tools 
+PyPDF2 
+python-docx 
+pandas
