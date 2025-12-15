@@ -84,7 +84,7 @@ with st.sidebar:
     email_user = st.text_input("Gmail Adresi")
     email_pass = st.text_input("Gmail Uygulama Şifresi", type="password", help="Normal şifreniz değil, 16 haneli Uygulama Şifresi")
     label_name = st.text_input("Gmail Etiket Adı", value="LSA", help="Gmail'deki etiket ismiyle birebir aynı olmalı.")
-    limit = st.slider("İncelenecek Mail Sayısı", 5, 50, 10)
+    limit = st.slider("İncelenecek Mail Sayısı", 5, 100, 10)
     
     start_btn = st.button("Analizi Başlat", type="primary")
 
